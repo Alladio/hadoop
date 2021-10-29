@@ -44,5 +44,5 @@ https://www.tutorialspoint.com/pg/hadoop/hadoop_mapreduce.htm
 
 #Kafka -> Desenvolvido pelo LinkedIn e liberado para uso opensource posteriormente,
 # esse sistema gerencia fluxos de dados em tempo real. A origem dos dados são websites,
-#sensores
+#sensores e aplicações
 
