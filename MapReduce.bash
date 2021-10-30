@@ -46,11 +46,11 @@ https://www.tutorialspoint.com/pg/hadoop/hadoop_mapreduce.htm
 # esse sistema gerencia fluxos de dados em tempo real. A origem dos dados são websites,
 #sensores e aplicações
 
-#Ambari -> Objetivo é tornar o gerenciamento Hadoop mais eficiente mais simples. Fornece uma interface 
+#Ambari(Yarn) -> Objetivo é tornar o gerenciamento Hadoop mais eficiente mais simples. Fornece uma interface 
 #de usuário web intuitiva e fácil de usar no monitoramento de clusters.
 #(Como está a saude do BIGDATA)
 
-#Yarn -> Plataforma responsável por gerenciar recursos de computação em clusters e agendar os aplicativos dos usuários
+#Yarn(Ambari) -> Plataforma responsável por gerenciar recursos de computação em clusters e agendar os aplicativos dos usuários
 #(Verifica filas de processamento e da prioridade ou tira prioridade das mesmas)
 
 #Hive -> Ferramenta voltada para captura e manipulação de dados estruturados e não estruturados.
