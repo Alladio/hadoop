@@ -31,7 +31,7 @@ https://www.tutorialspoint.com/pg/hadoop/hadoop_mapreduce.htm
 #Utilizada para ánalise de dados complexa.
 
 #Sqoop -> Responsável por importar e exportar dados de bases relacionais
-#Usado em quase 100% dos projetos
+#(Usado em quase 100% dos projetos)
 
 #ZooKeeper -> É um serviço que gerencia conjutos de cluster por meio de uma coordenação distribuída
 
@@ -45,4 +45,32 @@ https://www.tutorialspoint.com/pg/hadoop/hadoop_mapreduce.htm
 #Kafka -> Desenvolvido pelo LinkedIn e liberado para uso opensource posteriormente,
 # esse sistema gerencia fluxos de dados em tempo real. A origem dos dados são websites,
 #sensores e aplicações
+
+#Ambari -> Objetivo é tornar o gerenciamento Hadoop mais eficiente mais simples. Fornece uma interface 
+#de usuário web intuitiva e fácil de usar no monitoramento de clusters.
+#(Como está a saude do BIGDATA)
+
+#Yarn -> Plataforma responsável por gerenciar recursos de computação em clusters e agendar os aplicativos dos usuários
+#(Verifica filas de processamento e da prioridade ou tira prioridade das mesmas)
+
+#Hive -> Ferramenta voltada para captura e manipulação de dados estruturados e não estruturados.
+#É um conversor SQL em MapReduces. Permite que usuários de negócio e analistas de dados façam consultas, análises e relatórios.
+#(Usado em quase 100% dos projetos)
+
+#Common -> Contém utilitários e bibliotecas Java, que têm arquivos e scrpts para uso do Hadoop.
+
+#HDFS -> Sistema de armazenamento baseado no Hadoop. Tem a habilidade de armazenar dados em diversos Clusters.
+#(Verificar aquivo HDFS.bash)
+
+#Parquet -> Sistema de armazenamento baseado no SPARK. Nesse formato os dados são particionados Horizontalmente em grupos de linhas, ou seja,
+#dentro de cada grupo os dados são particionados verticalmente em colunas.
+#(Sistemas de arquivos)
+
+#Spark -> Essa ferramenta de BIG DATA é capaz de processar grandes conjuntos de dados. Em relação ao 
+#MapReduce, o ganho de velocidade de processamento é 100 vezes maior.
+
+#Apache Atlas -> É um conjunto escalonável e extensível de serviços básicos de governança - permite que as empresas
+#atendam de forma eficaz e eficiente seus requisitos de conformidade dentro do Hadoop e faz a integração
+#com todo o ecossistema de dados corporativos.
+#(GOVERNANÇA)
 
