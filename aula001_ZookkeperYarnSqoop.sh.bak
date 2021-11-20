@@ -1,0 +1,23 @@
+#Zookeeper, Yarn e Sqoop
+
+sqoop import\
+--connect jdbc:mysql://mysql.example.com/sqoop \
+--username sqoop \
+--password sqoop \
+--table cities
+#permite especificar um diiretório no HDFS como destino
+--warehouse-dir /etl/input/ 
+
+
+
+
+sudo -u hdfs sqoop import \
+> --connect jbdc:mysql://localhost/trainning \
+> --username root --password "SENHA"
+> --direct \
+> --table usuarios \
+> --target-dir /user/everis-bigdata/pokemon/1 \
+> --where "Compraram=1"
+
+#Verificando quantidade de linhas
+hdfs dfs -cat /user/alladio/projetos/usuarios/1/* | wc -l
