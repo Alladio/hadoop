@@ -1,0 +1,23 @@
+
+
+Spark Content
+
+tamanho dimensao  peso
+historico de vendas
+
+
+dataframes não tipados (Ansi 2003)
+
+dataset tipados
+
+Spark session ()
+
+Spark Context (antigo)
+
+criando Spark Session:
+
+import org.apache.spark.sqp.SparkSession
+val spark = SparkSession();
+mais infos
+
+https://spark.apache.org
